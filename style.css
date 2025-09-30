@@ -15,17 +15,17 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #0E2431;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6e93f7;
+  background: #326a8b;
   border-radius: 12px;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #4070f4;
+  background: #b6e4ff;
 }
 
 /* navbar styling */
@@ -34,7 +34,7 @@ nav {
   width: 100%;
   padding: 20px 0;
   z-index: 998;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -76,7 +76,7 @@ nav .navbar .menu li {
   font-weight: 500;
   color: #0E2431;
   padding: 6px 0;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
 }
 
 .navbar .menu a:hover {
@@ -110,7 +110,7 @@ nav .menu-btn,
   top: 20px;
   font-size: 20px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   display: none;
 }
 
@@ -184,7 +184,7 @@ nav.sticky .menu-btn {
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
 }
 
 .home .button button:hover {
@@ -194,10 +194,8 @@ nav.sticky .menu-btn {
 }
 
 /* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
 section {
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 section .content {
@@ -285,7 +283,7 @@ section .button button {
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
 }
 
 section .button button:hover {
@@ -296,7 +294,7 @@ section .button button:hover {
 
 /* My Skills CSS */
 .skills {
-  background: #F0F8FF;
+  background: #e2ebf2;
 }
 
 .skills .content {
@@ -367,12 +365,13 @@ section .button button:hover {
 }
 
 .services .boxes .box {
+  background-color:#e2ebf2;
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
   border-radius: 12px;
   padding: 30px 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
   cursor: default;
   transition: all 0.2s ease;
 }
@@ -403,7 +402,7 @@ section .button button:hover {
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p {
   color: #0E2431;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
 }
 
 .services .boxes .box:hover .topic,
@@ -413,7 +412,7 @@ section .button button:hover {
 
 /* Contact Me CSS */
 .contact {
-  background: #F0F8FF;
+  background: #e2ebf2;
 }
 
 .contact .content {
@@ -518,7 +517,7 @@ footer .text span a:hover {
     padding-top: 60px;
     flex-direction: column;
     align-items: center;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
   }
 
   .navbar.active .menu {
@@ -614,7 +613,7 @@ footer .text span a:hover {
   background: #333;
   color: #fff;
   text-decoration: none;
-  transition: background 0.3s;
+  transition: background 0.2s;
 }
 .project-card .btn:hover {
   background: #555;
@@ -661,7 +660,7 @@ footer .text span a:hover {
   background: #f5f5f5;
   color: #333;
   font-size: 24px;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
@@ -708,7 +707,7 @@ footer .text span a:hover {
   text-decoration: none;
   background: #333;
   color: white;
-  transition: background 0.3s;
+  transition: background 0.2s;
 }
 .contact-links a:hover {
   background: #555;
