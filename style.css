@@ -25,7 +25,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #b6e4ff;
+  background: #4486ad;
 }
 
 /* navbar styling */
@@ -460,7 +460,7 @@ footer .text span a:hover {
   ;
   font-size: 18px;
   border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.25);
   display: none;
 }
 
@@ -635,12 +635,78 @@ footer .text span a:hover {
   text-align: center;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+  display: block;
+}
+
 .titleUIUX {
   font-size: 50px;
   font-weight: bold;
   margin-top: 100px;  
   margin-bottom: 20px; 
   text-align: center; 
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.portfolio-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+  overflow: hidden;
+  text-align: center;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.portfolio-card h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+}
+
+.portfolio-card p {
+  font-size: 14px;
+  color: #555;
+  padding: 0 10px;
+}
+
+.portfolio-card .btn {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 16px 24px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  background: #0E2431;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.portfolio-card .btn:hover {
+  border-color: #0E2431;
+  background-color: #ffffff;
+  color: #0E2431;
 }
 
 .social-links {
