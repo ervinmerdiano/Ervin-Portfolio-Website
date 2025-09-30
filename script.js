@@ -44,3 +44,51 @@ let navLinks = document.querySelectorAll(".menu li a");
 navLinks.forEach((link) => {
   link.addEventListener("click", hideNavMenu);
 });
+
+
+// Text Animation
+
+const textElement = document.querySelector(".text-three");
+const texts = [
+  "UI/UX Designer Enthusiast",
+  "Graphic Design Enthusiast",
+  "Digital Artist"
+];
+
+let textIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+let typingSpeed = 60;
+let deletingSpeed = 30;
+let delayBetweenWords = 1500;
+
+function typeEffect() {
+  const currentText = texts[textIndex];
+
+  if (!isDeleting) {
+    // Ngetik
+    textElement.textContent = currentText.substring(0, charIndex + 1);
+    charIndex++;
+
+    if (charIndex === currentText.length) {
+      // selesai ketik, tunggu sebentar
+      isDeleting = true;
+      setTimeout(typeEffect, delayBetweenWords);
+      return;
+    }
+  } else {
+    // Menghapus
+    textElement.textContent = currentText.substring(0, charIndex - 1);
+    charIndex--;
+
+    if (charIndex === 0) {
+      isDeleting = false;
+      textIndex = (textIndex + 1) % texts.length;
+    }
+  }
+
+  const speed = isDeleting ? deletingSpeed : typingSpeed;
+  setTimeout(typeEffect, speed);
+}
+
+window.onload = typeEffect;
