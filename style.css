@@ -723,7 +723,7 @@ footer .text span a:hover {
   border-right: 3px solid #333; /* kursor */
   width: fit-content;
   animation: blinkCursor 0.7s steps(1) infinite;
-  min-height: 1.25em;
+  min-height: 1.3em;
 }
 
 @keyframes blinkCursor {
