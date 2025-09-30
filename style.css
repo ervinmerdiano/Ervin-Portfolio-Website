@@ -682,3 +682,34 @@ footer .text span a:hover {
 .social-links a.instagram:hover {
   background: #e1306c;
 }
+
+.contact-section {
+  max-width: 600px;
+  margin: 150px auto 60px;
+  text-align: center;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.contact-section h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+.contact-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #333;
+  color: white;
+  transition: background 0.3s;
+}
+.contact-links a:hover {
+  background: #555;
+}
