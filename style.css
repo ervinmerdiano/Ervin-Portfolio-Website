@@ -80,7 +80,7 @@ nav .navbar .menu li {
 }
 
 .navbar .menu a:hover {
-  color: #ffffff;
+  color: #326a8b;
 }
 
 nav.sticky .menu a {
@@ -88,7 +88,7 @@ nav.sticky .menu a {
 }
 
 nav.sticky .menu a:hover {
-  color: #497f9e;
+  color: #326a8b;
 }
 
 .navbar .media-icons a {
@@ -351,12 +351,12 @@ section .button button:hover {
 
 .skills-details .boxes .topic {
   font-size: 30px;
-  color: #4070f4;
+  color: #326a8b;
 }
 
 .skills-details .boxes .per {
   font-size: 60px;
-  color: #4070f4;
+  color: #326a8b;
 }
 
 /* My Portfolio CSS */
@@ -378,14 +378,14 @@ section .button button:hover {
 }
 
 .services .boxes .box:hover {
-  background: #4070f4;
+  background: #326a8b;
   color: #fff;
 }
 
 .services .boxes .box .icon {
   height: 50px;
   width: 50px;
-  background: #4070f4;
+  background: #326a8b;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
@@ -456,7 +456,7 @@ footer .text span a:hover {
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #326a8b;
   padding: 7px 12px;
   ;
   font-size: 18px;
@@ -465,7 +465,7 @@ footer .text span a:hover {
   display: none;
 }
 
-/* Responsive Media Query */
+/* Responsive */
 @media (max-width: 1190px) {
   section .content {
     width: 85%;
@@ -533,7 +533,7 @@ footer .text span a:hover {
   }
 
   nav.sticky .menu a:hover {
-    color: #4070f4;
+    color: #326a8b;
   }
 
   nav .navbar .media-icons {
