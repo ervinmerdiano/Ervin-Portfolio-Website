@@ -368,15 +368,17 @@ section .button button:hover {
   width: calc(100% / 3 - 20px);
   text-align: center;
   border-radius: 12px;
-  padding: 30px 10px;
+  padding: 30px 20px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
-  cursor: default;
-  transition: all 0.2s ease;
+  cursor: pointer;
+  transition: all 0.2s ease,  box-shadow 0.2s ease;
 }
 
 .services .boxes .box:hover {
   background: #326a8b;
   color: #fff;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
 .services .boxes .box .icon {
@@ -637,17 +639,28 @@ footer .text span a:hover {
 
 /* Cannot combine the three title because it somehow just won't stick with the codes. */
 
+/* IMAGE FOR PORTFOLIO */
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 40px;
+  align-items: start;
 }
+
 .gallery img {
   width: 100%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 5px 5px rgba(0,0,0,0.25);
-  display: block;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
 }
 
 .portfolio {
@@ -726,7 +739,7 @@ footer .text span a:hover {
 
 /* Hover efek sesuai platform */
 .social-links a:hover {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
   color: #fff;
 }
 
