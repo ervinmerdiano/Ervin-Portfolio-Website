@@ -50,8 +50,8 @@ navLinks.forEach((link) => {
 // Text Animation
 
 const textElement = document.querySelector(".text-three");
+
 if (textElement) {
-  // prepare inner element for typed text (keep element structure predictable)
   textElement.innerHTML = `<span class="text-content"></span>`;
   const textContent = textElement.querySelector(".text-content");
 
