@@ -810,3 +810,26 @@ footer .text span a:hover {
   50% { border-color: transparent; }
 }
 
+.home .button .linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 24px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #0E2431;
+  color: #fff;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.home .button .linkedin-btn:hover {
+  background: #1d445a;
+  border-color: #fff;
+  color: #fff;
+}
+
+.home .button .linkedin-btn i {
+  font-size: 18px;
+}
