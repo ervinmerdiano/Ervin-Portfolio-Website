@@ -56,9 +56,8 @@ if (textElement) {
   const textContent = textElement.querySelector(".text-content");
 
   const texts = [
-    "UI/UX Designer Enthusiast",
-    "Graphic Design Enthusiast",
-    "Digital Artist"
+    "UI/UX Designer",
+    "Quality Assurance",
   ];
 
   let textIndex = 0;
